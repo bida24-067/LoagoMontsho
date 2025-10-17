@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Loago Montsho</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0d1117;
+      color: #f0f6fc;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #161b22;
+      padding: 20px 0;
+      text-align: center;
+      border-bottom: 1px solid #30363d;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      color: #b58e5a;
+      margin: 0;
+    }
+
+    main {
+      max-width: 700px;
+      margin: 80px auto;
+      text-align: center;
+    }
+
+    main h2 {
+      color: #b58e5a;
+      margin-bottom: 10px;
+    }
+
+    main p {
+      color: #c9d1d9;
+      margin-bottom: 40px;
+      font-size: 1rem;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      background: #161b22;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(181, 142, 90, 0.1);
+    }
+
+    input, textarea {
+      background: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      padding: 12px;
+      color: #f0f6fc;
+      font-size: 1rem;
+      outline: none;
+    }
+
+    input:focus, textarea:focus {
+      border-color: #b58e5a;
+    }
+
+    button {
+      background-color: #b58e5a;
+      border: none;
+      padding: 12px;
+      border-radius: 8px;
+      color: #0d1117;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #c49b67;
+    }
+
+    .socials {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .socials a {
+      color: #b58e5a;
+      font-size: 1.4rem;
+      transition: color 0.3s ease;
+    }
+
+    .socials a:hover {
+      color: #c9d1d9;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      padding: 20px;
+      color: #8b949e;
+      border-top: 1px solid #30363d;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+  </header>
+
+  <main>
+    <h2>Let’s Get in Touch</h2>
+    <p>Interested in collaborating or have a question? Fill out the form below or reach out through my socials.</p>
+
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="socials">
+      <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Loago Montsho | Designed with passion
+  </footer>
+
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/a2e0e6e6a0.js" crossorigin="anonymous"></script>
+</body>
+</html>
